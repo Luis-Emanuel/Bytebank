@@ -20,7 +20,7 @@ elementoFormulario.addEventListener('submit', function (event) {
             valor: valor,
             data: data
         };
-        Conta.registraTransacao(novaTransacao);
+        Conta.registrarTransacao(novaTransacao);
         SaldoComponente.atualiza();
         ExtratoComponent.atualizar();
         elementoFormulario.reset();
